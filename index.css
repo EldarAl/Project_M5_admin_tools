@@ -1,0 +1,28 @@
+.container {
+    border: 1px solid black;
+    display: block;
+    width: 30%;
+    padding: 15px 30px;
+    margin: 100px auto;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.container div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin:10px;
+}
+.container button {
+    background-color: purple ;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
