@@ -4,6 +4,7 @@ newArr = [];
 
 //Берём данные с нашего сервера , записываем в новый массив и изменяем их стоимость в диапозоне от -5% до +5%
 function getUserStocks() {
+    newArr = [];
     return fetch(
         "https://5e8da89e22d8cd0016a798db.mockapi.io/users/2/stocks"
     ).then((res) => res.json())
